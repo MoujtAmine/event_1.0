@@ -1,0 +1,32 @@
+.demo-infinite-container {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: auto;
+  padding: 8px 24px;
+  height: 400px;
+}
+.demo-loading-container {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+[data-theme="dark"] .demo-infinite-container {
+  border: 1px solid #303030;
+}
+
+.centering {
+  max-width: 500px;
+  margin: 0 auto;
+  /*margin-top: 40px;
+  margin-bottom: 40px;*/
+}
+
+.centering2 {
+  max-width: 700px;
+  margin: 0 auto;
+  
+  /*margin-top: 40px;
+  margin-bottom: 40px;*/
+}

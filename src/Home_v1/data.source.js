@@ -1,4 +1,6 @@
 import React from 'react';
+import Test from '../components/Test'
+
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -178,106 +180,23 @@ export const Content00DataSource = {
     children: [
       {
         name: 'block0',
-        className: 'content0-block',
-        md: 8,
+        className: '',
+        md: 24,
         xs: 24,
         children: {
-          className: 'content0-block-item',
+          className: '',
           children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
-            },
+            
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: '',
               children: (
                 <>
-                  <p>ABCDE</p>
+                  <Test></Test>
                 </>
               ),
             },
-            {
-              name: 'content',
-              children: (
-                <>
-                  <p>abcdefgh&nbsp;abcdefgh&nbsp;abcdefgh&nbsp;abcdefgh</p>
-                  <p>ggghhhh</p>
-                </>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block1',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <>
-                  <p>ABCDE</p>
-                </>
-              ),
-            },
-            {
-              name: 'content',
-              children: (
-                <>
-                  <p>abcdefgh abcdefgh abcdefgh abcdefgh</p>
-                  <p>ggghhhh</p>
-                </>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: 'block2',
-        className: 'content0-block',
-        md: 8,
-        xs: 24,
-        children: {
-          className: 'content0-block-item',
-          children: [
-            {
-              name: 'image',
-              className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
-            },
-            {
-              name: 'title',
-              className: 'content0-block-title',
-              children: (
-                <>
-                  <p>ABCDE</p>
-                </>
-              ),
-            },
-            {
-              name: 'content',
-              children: (
-                <>
-                  <p>abcdefgh abcdefgh abcdefgh abcdefgh</p>
-                  <p>ggghhhh</p>
-                </>
-              ),
-            },
+            
           ],
         },
       },
